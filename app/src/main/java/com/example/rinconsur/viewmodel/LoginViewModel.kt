@@ -39,6 +39,32 @@ class LoginViewModel : ViewModel() {
         _estado.update { it.copy(mensajeOlvido = mensaje) }
     }
 
+    fun ingresar(onNavegar: () -> Unit) {
+        val actual = _estado.value
+        val errUsuario = if (actual.usuario.isBlank()) "El usuario es obligatorio" else null
+        val errClave = if (actual.clave.isBlank()) "La clave es obligatoria" else null
+
+
+        if (errUsuario != null || errClave != null) {
+            _estado.update {
+                it.copy(
+                    errores = LoginErrores(usuario = errUsuario, clave = errClave)
+                )
+            }
+            return
+        }
+
+        // Si los datos son válidos, limpiamos errores y ejecutamos la navegación
+        _estado.update { it.copy(errores = LoginErrores()) }
+        onNavegar()
+    }
+
+    fun limpiar() {
+        _estado.value = LoginUiState()
+    }
+
+
+
 
 }
 
