@@ -5,7 +5,7 @@ package com.example.rinconsur.model
 data class Informe(
     val probadoresUsados: Int = 0,
     val excesoTiempo: Int = 0,
-    val personajesIngresaron: Int = 0
+    val personasIngresaron: Int = 0
 )
 
 

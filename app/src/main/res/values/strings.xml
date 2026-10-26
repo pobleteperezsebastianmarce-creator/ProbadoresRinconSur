@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">RinconSur</string>
+    <string name="mensaje_soporte">Comuníquese con soporte técnico al anexo 4040 o soporte@rinconsur.cl</string>
+    <string name="sin_alertas">No hay probadores con exceso de tiempo.\n</string>
+    <string name="hay_alertas">Atención: Hay %d probador(es) con exceso de tiempo.</string>
+    <string name="sesion_de">Sesión de: %s</string>
+    <string name="turno_iniciado">Turno iniciado correctamente</string>
+    <string name="turno_finalizado">Turno finalizado</string>
+    <string name="aviso_notificaciones">Notificaciones activadas para cambios de turno y alertas de probadores.</string>
+    <string name="aviso_sin_notificaciones" />
+
 </resources>
