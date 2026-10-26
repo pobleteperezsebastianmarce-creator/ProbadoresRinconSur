@@ -11,6 +11,7 @@ import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
+import com.example.rinconsur.model.Trabajador as Cuenta
 
 class TrabajadorRepository(private val dao: TrabajadorDao) {
 
