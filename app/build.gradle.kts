@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.rinconsur"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.example.rinconsur"

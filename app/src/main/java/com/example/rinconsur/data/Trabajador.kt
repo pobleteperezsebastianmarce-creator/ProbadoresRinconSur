@@ -2,6 +2,7 @@ package com.example.rinconsur.data
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import com.example.rinconsur.model.ROL_TRABAJADOR
 
 @Entity(tableName = "trabajadores")
 data class Trabajador(

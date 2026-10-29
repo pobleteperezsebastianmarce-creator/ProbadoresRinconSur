@@ -4,6 +4,7 @@ import com.example.rinconsur.model.CLAVE_EMPLEADO
 import com.example.rinconsur.model.ROL_TRABAJADOR
 import com.example.rinconsur.model.TIENDA_EMPLEADO
 import com.example.rinconsur.model.USUARIO_EMPLEADO
+import com.example.rinconsur.model.Trabajador as Cuenta
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.emitAll
 import kotlinx.coroutines.flow.first
@@ -11,7 +12,6 @@ import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import com.example.rinconsur.model.Trabajador as Cuenta
 
 class TrabajadorRepository(private val dao: TrabajadorDao) {
 

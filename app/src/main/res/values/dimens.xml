@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_pantalla">28dp</dimen>
+    <dimen name="padding_card">20dp</dimen>
+    <dimen name="espacio_campos">12dp</dimen>
+    <dimen name="alto_boton">52dp</dimen>
+    <dimen name="logo_lado">104dp</dimen>
+    <dimen name="radio_dialogo">20dp</dimen>
+    <dimen name="radio_card">16dp</dimen>
+    <dimen name="alto_min_probador">118dp</dimen>
+</resources>

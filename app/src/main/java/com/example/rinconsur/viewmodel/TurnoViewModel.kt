@@ -1,5 +1,5 @@
 package com.example.rinconsur.viewmodel
-import com.example.rinconsur.data.Trabajador
+
 import android.Manifest
 import android.app.Application
 import android.app.NotificationChannel
@@ -97,7 +97,7 @@ class TurnoViewModel(application: Application) : AndroidViewModel(application) {
                         else -> ""
                     }
                     actual.copy(
-                        tiendaDisponibles = listaCompleta,
+                        tiendaDisponibles =  listaCompleta,
                         tienda = tiendaSeleccionada
                     )
                 }
