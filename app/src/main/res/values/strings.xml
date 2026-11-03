@@ -134,7 +134,7 @@
     <string name="volver">Volver</string>
     <string name="informe_titulo">Informe de turno</string>
     <string name="probadores_usados">Probadores usados</string>
-    <string name="excesos_doce">Veces que se pasó de 12 minutos</string>
+    <string name="excesos_doce">Veces que se pasó de 1 minuto</string>
     <string name="personas_ingresaron">Personas que ingresaron</string>
     <string name="informe_vacio">Aún no hay un turno cerrado. El resumen quedará guardado al cerrar el turno.</string>
     <string name="seccion_actual">Sección: %1$s</string>
@@ -146,7 +146,7 @@
     <string name="alerta_cuerpo">Ha superado el tiempo máximo de uso</string>
     <string name="alerta_cuerpo_tiempo">Ha superado el tiempo máximo de uso (%1$s).</string>
     <string name="canal_alertas">Alertas de probadores</string>
-    <string name="canal_alertas_desc">Aviso cuando un probador supera los 12 minutos.</string>
+    <string name="canal_alertas_desc">Aviso cuando un probador supera los 1 minuto.</string>
     <string name="aviso_sin_notificaciones">Sin permiso de notificaciones. El probador igual se pondrá en rojo y el teléfono vibrará.</string>
     <string name="sin_alertas">Sin alertas por ahora.</string>
     <string name="hay_alertas">Hay %1$d probador(es) en exceso de tiempo.</string>

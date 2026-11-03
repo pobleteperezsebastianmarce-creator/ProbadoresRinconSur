@@ -39,7 +39,7 @@ data class Probador(
     }
 }
 
-const val LIMITE_USO_MILLIS = 12 * 60 * 1000L
+const val LIMITE_USO_MILLIS = 1 * 60 * 1000L
 const val MIN_PROBADORES = 1
 const val MAX_PROBADORES = 12
 const val MIN_PRENDAS = 1 
